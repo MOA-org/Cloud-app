@@ -1,0 +1,13 @@
+{
+  "version": "v1.0",
+  "release": 19,
+  "deployment_number": 19.0,
+  "environment": "dev",
+  "app_id": "id_1765827983244_789cc896",
+  "app_name": "my-cloud-app",
+  "timestamp": "2025-12-15T23:05:35.907038",
+  "deployed_by": "id_1758924180000_da1dcddc",
+  "build_settings": {},
+  "environment_variables": {},
+  "amplify_app_id": null
+}
