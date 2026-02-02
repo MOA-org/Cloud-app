@@ -23,12 +23,9 @@ class Cloud_AppStack(Stack):
 
         # Example: Create an S3 bucket
         # You can customize this stack to add your own AWS resources
-        bucket = s3.Bucket(
-            self, "ExampleBucket",
-            bucket_name=f"cloud-app-{{{cdk.Aws.ACCOUNT_ID}}}",
-            removal_policy=RemovalPolicy.DESTROY,  # For development only
-            auto_delete_objects=True,  # For development only
-            versioned=False
+        bucket = s3.Bucket(self, "ExampleBucket",
+            removal_policy=RemovalPolicy.DESTROY,
+            auto_delete_objects=True
         )
 
         # Add more resources here as needed
